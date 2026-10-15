@@ -1,0 +1,53 @@
+{
+  "xml_parsed": true,
+  "worksheets": 2,
+  "dashboards": 1,
+  "embedded_csv_sources": 2,
+  "package_crc_ok": true,
+  "enabled_hyper_extracts": 2,
+  "hyper_api_version": "0.0.20746",
+  "extract_checks": {
+    "DepositCounts": {
+      "rows": 2,
+      "columns": 3,
+      "reopened_and_all_values_match_csv": true,
+      "sha256": "e45db3353ab3894e20a6829066cc2e5f7bd466c29dca976bad9545e452277a6b"
+    },
+    "BankBalances": {
+      "rows": 10,
+      "columns": 8,
+      "reopened_and_all_values_match_csv": true,
+      "sha256": "39a08ec54ab48f77ce0ff6e6ef51491e0f8d62c719588934b0e6f98952812deb"
+    }
+  },
+  "chart_counts_reconciled": true,
+  "five_banks_have_two_dates_each": true,
+  "reported_xml_constraints": {
+    "source_build_present": true,
+    "all_hex_colors_lowercase": true,
+    "worksheet_cards_before_viewpoint": true,
+    "dashboard_window_child_order": true,
+    "errors": []
+  },
+  "xml_validation_scope": "Targeted checks for reported errors; not a full Tableau schema validation",
+  "native_tableau_open_test": "not performed; Tableau is not installed in this environment",
+  "packaged_extracts_reopened_and_verified": {
+    "DepositCounts": {
+      "rows": 2,
+      "all_values_match_csv": true,
+      "enabled": true,
+      "path_inside_package": "Data/Extracts/DepositCounts.hyper"
+    },
+    "BankBalances": {
+      "rows": 10,
+      "all_values_match_csv": true,
+      "enabled": true,
+      "path_inside_package": "Data/Extracts/BankBalances.hyper"
+    }
+  },
+  "documentation_revision": {
+    "instructional_dashboard_text_removed": true,
+    "chart_specifications_unchanged": true,
+    "embedded_csv_and_hyper_files_byte_identical": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "checked_at_utc": "2026-10-12T20:43:59.064163+00:00",
+  "source": "https://api.fdic.gov/banks/financials",
+  "saved_snapshot_id": "20261012T004310946138Z",
+  "saved_source_rows": 67451,
+  "snapshot_checksums_verified": true,
+  "live_records_compared": 10,
+  "fields_per_record": [
+    "CERT",
+    "REPDTE",
+    "NAME",
+    "ASSET",
+    "DEP",
+    "LNLSNET",
+    "CHBAL"
+  ],
+  "all_sample_fields_match": true,
+  "all_10_chart_balances_match_source": true,
+  "live_response_sha256": "e5b744dc8358642c75e4caa7dd599819ce361f6a1b470f687ddf65ccbf816b3c",
+  "records": [
+    {
+      "cert": 10988,
+      "report_date": "20250630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 10988,
+      "report_date": "20260630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 29546,
+      "report_date": "20250630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 29546,
+      "report_date": "20260630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 30052,
+      "report_date": "20250630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 30052,
+      "report_date": "20260630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 5146,
+      "report_date": "20250630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 5146,
+      "report_date": "20260630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 90215,
+      "report_date": "20250630",
+      "fields_matched": 7
+    },
+    {
+      "cert": 90215,
+      "report_date": "20260630",
+      "fields_matched": 7
+    }
+  ]
+}

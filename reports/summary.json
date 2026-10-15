@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-06-30",
+  "source_rows": 67451,
+  "source_banks": 4729,
+  "quarters": 15,
+  "peer_rows": 12969,
+  "latest_peer_banks": 890,
+  "eligible_banks": 889,
+  "review_banks": 40,
+  "contracting_banks": 159,
+  "outlier_banks": 5,
+  "median_deposit_yoy": 0.05068352109183006,
+  "loan_to_deposit_threshold": 0.953023728889449,
+  "threshold_quantile": 0.75,
+  "peer_deposits_b": 2058.930041,
+  "gross_deposit_losses_m": 18196.744,
+  "review_deposit_losses_m": 3325.258,
+  "top10_loss_share": 0.5045228970633427,
+  "review_structural_change_flags": 0,
+  "structural_change_flags": 21,
+  "missing_financial_cells": {
+    "assets_k": 0,
+    "deposits_k": 0,
+    "net_loans_k": 0,
+    "cash_k": 0,
+    "equity_k": 0
+  }
+}

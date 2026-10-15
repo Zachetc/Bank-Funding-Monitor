@@ -1,0 +1,19 @@
+test_clean_types_null_zero_and_negative_equity (test_pipeline.Boundaries.test_clean_types_null_zero_and_negative_equity) ... ok
+test_duplicate_keys_fail (test_pipeline.Boundaries.test_duplicate_keys_fail) ... ok
+test_invalid_money_fails (test_pipeline.Boundaries.test_invalid_money_fails) ... ok
+test_missing_quarter_does_not_shift_yoy_and_zero_division_is_null (test_pipeline.Boundaries.test_missing_quarter_does_not_shift_yoy_and_zero_division_is_null) ... ok
+test_quarter_generation (test_pipeline.Boundaries.test_quarter_generation) ... ok
+test_robust_outlier_retains_extreme_observation (test_pipeline.Boundaries.test_robust_outlier_retains_extreme_observation) ... ok
+test_wrong_quarter_fails (test_pipeline.Boundaries.test_wrong_quarter_fails) ... ok
+test_zero_mad_is_unknown_not_infinity (test_pipeline.Boundaries.test_zero_mad_is_unknown_not_infinity) ... ok
+test_ranking_and_pareto_totals (test_pipeline.DeliveredSnapshot.test_ranking_and_pareto_totals) ... ok
+test_ratio_units_and_independent_yoy (test_pipeline.DeliveredSnapshot.test_ratio_units_and_independent_yoy) ... ok
+test_relational_integrity (test_pipeline.DeliveredSnapshot.test_relational_integrity) ... ok
+test_source_checksums_and_counts (test_pipeline.DeliveredSnapshot.test_source_checksums_and_counts) ... ok
+test_sql_and_dashboard_review_queue_agree (test_pipeline.DeliveredSnapshot.test_sql_and_dashboard_review_queue_agree) ... ok
+test_weighted_ratio_uses_matching_nonnull_population (test_pipeline.DeliveredSnapshot.test_weighted_ratio_uses_matching_nonnull_population) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.403s
+
+OK

@@ -1,0 +1,34 @@
+{
+  "raw_rows": 67451,
+  "clean_rows": 67451,
+  "rows_removed": 0,
+  "duplicate_bank_quarters": 0,
+  "source_missing_cells": {
+    "ID": 0,
+    "CERT": 0,
+    "REPDTE": 0,
+    "NAME": 0,
+    "STALP": 0,
+    "BKCLASS": 0,
+    "ASSET": 0,
+    "DEP": 0,
+    "DEPDOM": 0,
+    "LNLSNET": 0,
+    "CHBAL": 0,
+    "EQ": 0
+  },
+  "labels_with_outer_whitespace": {
+    "NAME": 0,
+    "STALP": 0,
+    "BKCLASS": 0
+  },
+  "latest_peers_missing_yoy": 1,
+  "latest_zero_deposit_peers": 0,
+  "latest_peer_segments": {
+    "Other peers": 547,
+    "Lending intensive": 183,
+    "Deposit contraction": 119,
+    "Review funding": 40,
+    "Insufficient history": 1
+  }
+}

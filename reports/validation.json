@@ -1,0 +1,85 @@
+{
+  "snapshot_id": "20261012T004310946138Z",
+  "retrieved_at_utc": "2026-10-12T00:43:10.946248+00:00",
+  "source_rows_reconciled": true,
+  "all_quarter_api_counts_match": true,
+  "unit_and_integration_tests": "14 passed",
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "offline_rebuild_csv_hashes_identical": true,
+  "tables": {
+    "dim_bank": 4729,
+    "dim_period": 15,
+    "fact_financials": 67451,
+    "fact_peer_signals": 12969,
+    "pipeline_run": 1
+  },
+  "processed_csv_sha256": {
+    "bank_quarter.csv": "73ba142ed07dec74894c1deb43a6c2d9e3f540f7c7f927bae1ab27146bb015bb",
+    "deposit_loss_pareto.csv": "13b7071f32bd674c231d535fd5b84f538fc9bdadba06ebfd2c9761e98df65866",
+    "financials_clean.csv": "b3fdb04728d518bbf28974f6b42710e4e498f996775bd248579d308104e9276a",
+    "latest_peers.csv": "baa101a268d444c54cfcc54393fb049c31a413105f563d7b841530a2ff59d71a",
+    "peer_trend.csv": "2706d285e2ca022bcf9677dd42ad3cb25bf5c1ecf77cafb29ae6baf101f5bfed",
+    "review_queue.csv": "6f45eb01a506dab26b93fb008c3d767a65a7b2a305de991896d43e10835b8ada",
+    "threshold_sensitivity.csv": "943821b1069453b54e8057c59ed11549ea7b05bc7cd5cd730dead06434b17825"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "sqlite": "3.53.1"
+  },
+  "tableau": {
+    "xml_parsed": true,
+    "worksheets": 2,
+    "dashboards": 1,
+    "embedded_csv_sources": 2,
+    "package_crc_ok": true,
+    "enabled_hyper_extracts": 2,
+    "hyper_api_version": "0.0.20746",
+    "extract_checks": {
+      "DepositCounts": {
+        "rows": 2,
+        "columns": 3,
+        "reopened_and_all_values_match_csv": true,
+        "sha256": "e45db3353ab3894e20a6829066cc2e5f7bd466c29dca976bad9545e452277a6b"
+      },
+      "BankBalances": {
+        "rows": 10,
+        "columns": 8,
+        "reopened_and_all_values_match_csv": true,
+        "sha256": "39a08ec54ab48f77ce0ff6e6ef51491e0f8d62c719588934b0e6f98952812deb"
+      }
+    },
+    "chart_counts_reconciled": true,
+    "five_banks_have_two_dates_each": true,
+    "reported_xml_constraints": {
+      "source_build_present": true,
+      "all_hex_colors_lowercase": true,
+      "worksheet_cards_before_viewpoint": true,
+      "dashboard_window_child_order": true,
+      "errors": []
+    },
+    "xml_validation_scope": "Targeted checks for reported errors; not a full Tableau schema validation",
+    "native_tableau_open_test": "not performed; Tableau is not installed in this environment",
+    "packaged_extracts_reopened_and_verified": {
+      "DepositCounts": {
+        "rows": 2,
+        "all_values_match_csv": true,
+        "enabled": true,
+        "path_inside_package": "Data/Extracts/DepositCounts.hyper"
+      },
+      "BankBalances": {
+        "rows": 10,
+        "all_values_match_csv": true,
+        "enabled": true,
+        "path_inside_package": "Data/Extracts/BankBalances.hyper"
+      }
+    },
+    "documentation_revision": {
+      "instructional_dashboard_text_removed": true,
+      "chart_specifications_unchanged": true,
+      "embedded_csv_and_hyper_files_byte_identical": true
+    }
+  }
+}

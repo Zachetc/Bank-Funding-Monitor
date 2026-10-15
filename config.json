@@ -1,0 +1,13 @@
+{
+  "project": "Bank Funding Monitor",
+  "api_url": "https://api.fdic.gov/banks/financials",
+  "start_quarter": "2022-12-31",
+  "end_quarter": "2026-06-30",
+  "fields": ["ID", "CERT", "REPDTE", "NAME", "STALP", "BKCLASS", "ASSET", "DEP", "DEPDOM", "LNLSNET", "CHBAL", "EQ"],
+  "bank_classes": ["N", "NM", "SM", "SB", "SI", "SL"],
+  "peer_min_assets_usd_thousands": 1000000,
+  "peer_max_assets_usd_thousands_exclusive": 10000000,
+  "high_loan_to_deposit_quantile": 0.75,
+  "deposit_outlier_modified_z": -3.5,
+  "possible_structural_change_abs_yoy": 0.5
+}
